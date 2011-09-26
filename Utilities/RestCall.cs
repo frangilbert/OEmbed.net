@@ -6,7 +6,7 @@ namespace OEmbed.Net.Utilities
 {
     internal class RestCall : IRestCall
     {
-        private readonly WebClient client = new WebClient();
+        private readonly WebClient _client = new WebClient();
         
         /// <summary>
         /// Download Data to get the response

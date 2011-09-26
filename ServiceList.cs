@@ -1,5 +1,5 @@
 ﻿using System;
-using OEmbed.Net.Entities;
+using OEmbed.Net.Domain;
 
 namespace OEmbed.Net
 {

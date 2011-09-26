@@ -2,7 +2,7 @@
 
 namespace OEmbed.Net.Utilities
 {
-    internal interface IRestCall
+    public interface IRestCall
     {
         Stream Call(string url);
     }

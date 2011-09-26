@@ -1,0 +1,17 @@
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\OEmbed.Tests.dll
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\OEmbed.Tests.pdb
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\Moq.dll
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\nunit.framework.dll
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\nunit.mocks.dll
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\OEmbed.Net.dll
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\pnunit.framework.dll
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\OEmbed.Net.pdb
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\Moq.pdb
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\Moq.xml
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\nunit.framework.xml
+C:\Projects\oembednet\Tests\OEmbed.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\oembednet\Tests\OEmbed.Tests\obj\Debug\OEmbed.Tests.dll
+C:\Projects\oembednet\Tests\OEmbed.Tests\obj\Debug\OEmbed.Tests.pdb
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\Newtonsoft.Json.Net35.pdb
+C:\Projects\oembednet\Tests\OEmbed.Tests\bin\Debug\Newtonsoft.Json.Net35.xml

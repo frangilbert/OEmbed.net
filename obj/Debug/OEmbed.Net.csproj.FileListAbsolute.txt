@@ -1,0 +1,8 @@
+C:\Projects\oembednet\bin\Debug\OEmbed.Net.dll
+C:\Projects\oembednet\bin\Debug\OEmbed.Net.pdb
+C:\Projects\oembednet\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\oembednet\obj\Debug\OEmbed.Net.dll
+C:\Projects\oembednet\obj\Debug\OEmbed.Net.pdb
+C:\Projects\oembednet\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Projects\oembednet\bin\Debug\Newtonsoft.Json.Net35.pdb
+C:\Projects\oembednet\bin\Debug\Newtonsoft.Json.Net35.xml

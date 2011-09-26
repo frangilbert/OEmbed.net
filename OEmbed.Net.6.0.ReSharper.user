@@ -1,0 +1,104 @@
+<Configuration>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="nUnit" Id="OEmbed.Tests.Consumer" type="NUnitTestFixtureElement" Project="EDDACF7C-018C-485C-BA61-15232D03B385" />
+        <UnitTestElement Provider="nUnit" Id="OEmbed.Tests.Consumer.Consumer_WhenQik_ReturnsVideoData" ParentId="OEmbed.Tests.Consumer" type="NUnitTestElement" TypeName="OEmbed.Tests.Consumer" MethodName="Consumer_WhenQik_ReturnsVideoData" Project="EDDACF7C-018C-485C-BA61-15232D03B385" />
+        <UnitTestElement Provider="nUnit" Id="OEmbed.Tests.Consumer.Consumer_WhenViddler_ReturnsVideoData" ParentId="OEmbed.Tests.Consumer" type="NUnitTestElement" TypeName="OEmbed.Tests.Consumer" MethodName="Consumer_WhenViddler_ReturnsVideoData" Project="EDDACF7C-018C-485C-BA61-15232D03B385" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Flickr.xml" caret="308" fromTop="8" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Flickr.json" caret="0" fromTop="0" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Utilities/f:RestCall.cs" caret="135" fromTop="7" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Domain/f:Video.cs" caret="0" fromTop="0" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Domain/f:Rich.cs" caret="0" fromTop="0" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Domain/f:Photo.cs" caret="0" fromTop="0" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Domain/f:Link.cs" caret="156" fromTop="6" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Domain/f:Base.cs" caret="188" fromTop="7" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Youtube.json" caret="98" fromTop="0" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Viddler.json" caret="97" fromTop="0" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Qik.json" caret="0" fromTop="0" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Utilities/f:JsonSerializer.cs" caret="1143" fromTop="35" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Utilities/f:ServiceCallBuilder.cs" caret="741" fromTop="23" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:ServiceList.cs" caret="0" fromTop="0" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:IConsumer.cs" caret="0" fromTop="0" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:Consumer.cs" caret="0" fromTop="0" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="866" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Flickr.json" caret="0" fromTop="0" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="315" fromTop="21" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:Consumer.cs" caret="2078" fromTop="23" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:Consumer.cs" caret="2728" fromTop="35" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:Consumer.cs" caret="3157" fromTop="46" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Utilities/f:JsonSerializer.cs" caret="769" fromTop="35" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Utilities/f:JsonSerializer.cs" caret="102" fromTop="3" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Utilities/f:JsonSerializer.cs" caret="446" fromTop="19" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Utilities/f:JsonSerializer.cs" caret="211" fromTop="9" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Utilities/f:JsonSerializer.cs" caret="1090" fromTop="33" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/d:Domain/f:Base.cs" caret="188" fromTop="7" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="0" fromTop="0" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Youtube.json" caret="0" fromTop="0" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="568" fromTop="26" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="493" fromTop="22" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="200" fromTop="11" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Viddler.json" caret="0" fromTop="0" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/d:FakeData/f:Qik.json" caret="0" fromTop="0" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="2032" fromTop="49" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="1389" fromTop="20" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="1751" fromTop="30" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="1009" fromTop="28" />
+      <File id="EDDACF7C-018C-485C-BA61-15232D03B385/f:Consumer.Test.cs" caret="659" fromTop="18" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:Consumer.cs" caret="840" fromTop="25" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:Consumer.cs" caret="905" fromTop="29" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:Consumer.cs" caret="905" fromTop="27" />
+      <File id="05776309-1B77-4270-91EF-5AF0165DF408/f:Consumer.cs" caret="0" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="StreamReader`0" priority="63" />
+      <Item value="new" priority="31" />
+      <Item value="StreamReader" priority="28" />
+      <Item value="s" priority="31" />
+      <Item value="private" priority="63" />
+      <Item value="using" priority="30" />
+      <Item value="Newtonsoft" priority="30" />
+      <Item value="Json" priority="26" />
+      <Item value="string" priority="31" />
+      <Item value="DriveType`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="WriteTo`0" priority="26" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Newtonsoft.Json.JsonConvert">
+      <Item value="DeserializeObject`1" priority="26" />
+      <Item value="SerializeObject`0" priority="53" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

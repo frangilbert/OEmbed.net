@@ -1,12 +1,23 @@
 ﻿using System.IO;
-using OEmbed.Net.Entities;
+using OEmbed.Net.Domain;
 using OEmbed.Net.Utilities;
 
 namespace OEmbed.Net
 {
-    public class Consumer<T>
-        where T : Base
+    public class Consumer<T> : IConsumer<T> where T : Base
     {
+        private readonly IRestCall _restCall;
+
+        public Consumer(IRestCall restCall)
+        {
+            _restCall = restCall;
+        }
+        
+        public Consumer()
+        {
+            _restCall = new RestCall();
+        }
+
         /// <summary>
         /// Get the oEmbed URL and return as the relevant object
         /// </summary>
@@ -15,8 +26,7 @@ namespace OEmbed.Net
         public T GetObject(string url)
         {
             //Make the call
-            IRestCall call = new RestCall();
-            Stream callResponse = call.Call(url);
+            Stream callResponse = _restCall.Call(url);
 
             //Deserialize feed
             ISerializer<T> data = new JsonSerializer<T>();
@@ -32,8 +42,7 @@ namespace OEmbed.Net
         public T GetObject(string url, ServiceCallBuilder.DataType dataType)
         {
             //Make the call
-            IRestCall call = new RestCall();
-            Stream callResponse = call.Call(url);
+            Stream callResponse = _restCall.Call(url);
             ISerializer<T> data;
 
             //Deserialize feed
@@ -60,7 +69,7 @@ namespace OEmbed.Net
         /// <returns></returns>
         public T GetObject(IServiceCallBuilder builder)
         {
-            return this.GetObject(builder.ToString());
+            return GetObject(builder.ToString());
         }
 
         /// <summary>
@@ -78,7 +87,7 @@ namespace OEmbed.Net
             serviceBuilder.Url = url;
             serviceBuilder.Type = dataType;
 
-            return this.GetObject(serviceBuilder.ToString());
+            return GetObject(serviceBuilder.ToString());
         }
 
         /// <summary>
@@ -89,7 +98,7 @@ namespace OEmbed.Net
         /// <returns>Deserialized object</returns>
         public T GetObject(Service service, string url)
         {
-            return this.GetObject(service, url, ServiceCallBuilder.DataType.json);
+            return GetObject(service, url, ServiceCallBuilder.DataType.json);
         }
     }
 }

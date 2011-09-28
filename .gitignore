@@ -13,3 +13,4 @@ _ReSharper.*
 *.suo
 *.cache
 ~$*
+/_ReSharper.*

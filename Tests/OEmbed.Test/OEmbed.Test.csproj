@@ -8,8 +8,8 @@
     <ProjectGuid>{EDDACF7C-018C-485C-BA61-15232D03B385}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OEmbed.Tests</RootNamespace>
-    <AssemblyName>OEmbed.Tests</AssemblyName>
+    <RootNamespace>OEmbed.Test</RootNamespace>
+    <AssemblyName>OEmbed.Test</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

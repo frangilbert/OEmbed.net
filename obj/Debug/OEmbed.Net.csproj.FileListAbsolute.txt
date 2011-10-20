@@ -13,3 +13,4 @@ I:\Projects\OEmbed.net\obj\Debug\OEmbed.Net.dll
 I:\Projects\OEmbed.net\obj\Debug\OEmbed.Net.pdb
 I:\Projects\OEmbed.net\bin\Debug\Newtonsoft.Json.Net35.pdb
 I:\Projects\OEmbed.net\bin\Debug\Newtonsoft.Json.Net35.xml
+I:\Projects\OEmbed.net\bin\Debug\Newtonsoft.Json.Net35.dll

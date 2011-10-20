@@ -55,10 +55,10 @@
   <ItemGroup>
     <EmbeddedResource Include="FakeData\Youtube.json" />
     <EmbeddedResource Include="FakeData\Viddler.json">
-      <CustomToolNamespace>OEmbed.Tests.FakeData.Flickr.json</CustomToolNamespace>
+      <CustomToolNamespace>OEmbed.Test.FakeData.Flickr.json</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="FakeData\Qik.json">
-      <CustomToolNamespace>OEmbed.Tests.FakeData.Flickr.json</CustomToolNamespace>
+      <CustomToolNamespace>OEmbed.Test.FakeData.Flickr.json</CustomToolNamespace>
     </EmbeddedResource>
     <None Include="packages.config" />
   </ItemGroup>
@@ -70,12 +70,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FakeData\Flickr.json">
-      <CustomToolNamespace>OEmbed.Tests.FakeData.Flickr.json</CustomToolNamespace>
+      <CustomToolNamespace>OEmbed.Test.FakeData.Flickr.json</CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FakeData\Flickr.xml">
-      <CustomToolNamespace>OEmbed.Tests.FakeData.Flickr.xml</CustomToolNamespace>
+      <CustomToolNamespace>OEmbed.Test.FakeData.Flickr.xml</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>

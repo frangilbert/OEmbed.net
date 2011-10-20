@@ -4,7 +4,7 @@ using OEmbed.Net;
 using OEmbed.Net.Domain;
 using OEmbed.Net.Utilities;
 
-namespace OEmbed.Tests
+namespace OEmbed.Test
 {
     [TestFixture]
     public class Consumer
@@ -26,7 +26,7 @@ namespace OEmbed.Tests
         [Test]
         public void Consumer_WhenFlickrJson_ReturnsPhotoData()
         {
-            MockFeed("OEmbed.Tests.FakeData.Flickr.json");
+            MockFeed("OEmbed.Test.FakeData.Flickr.json");
             var _consumer = new Consumer<Photo>(_restCall.Object);
             
             Photo photo = _consumer.GetObject("");
@@ -36,7 +36,7 @@ namespace OEmbed.Tests
         [Test]
         public void Consumer_WhenYoutube_ReturnsVideoData()
         {
-            MockFeed("OEmbed.Tests.FakeData.Youtube.json");
+            MockFeed("OEmbed.Test.FakeData.Youtube.json");
             var _consumer = new Consumer<Video>(_restCall.Object);
             
             Video video = _consumer.GetObject("");
@@ -46,7 +46,7 @@ namespace OEmbed.Tests
         [Test]
         public void Consumer_WhenViddler_ReturnsVideoData()
         {
-            MockFeed("OEmbed.Tests.FakeData.Viddler.json");
+            MockFeed("OEmbed.Test.FakeData.Viddler.json");
             var _consumer = new Consumer<Video>(_restCall.Object);
 
             Video video = _consumer.GetObject("");
@@ -56,7 +56,7 @@ namespace OEmbed.Tests
         [Test]
         public void Consumer_WhenQik_ReturnsVideoData()
         {
-            MockFeed("OEmbed.Tests.FakeData.Qik.json");
+            MockFeed("OEmbed.Test.FakeData.Qik.json");
             var _consumer = new Consumer<Video>(_restCall.Object);
 
             Video video = _consumer.GetObject("");

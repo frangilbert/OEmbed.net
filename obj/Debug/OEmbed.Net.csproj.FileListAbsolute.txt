@@ -14,3 +14,10 @@ I:\Projects\OEmbed.net\obj\Debug\OEmbed.Net.pdb
 I:\Projects\OEmbed.net\bin\Debug\Newtonsoft.Json.Net35.pdb
 I:\Projects\OEmbed.net\bin\Debug\Newtonsoft.Json.Net35.xml
 I:\Projects\OEmbed.net\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Git\OEmbed.net\bin\Debug\OEmbed.Net.dll
+C:\Git\OEmbed.net\bin\Debug\OEmbed.Net.pdb
+C:\Git\OEmbed.net\obj\Debug\OEmbed.Net.csprojResolveAssemblyReference.cache
+C:\Git\OEmbed.net\obj\Debug\OEmbed.Net.dll
+C:\Git\OEmbed.net\obj\Debug\OEmbed.Net.pdb
+C:\Git\OEmbed.net\bin\Debug\Newtonsoft.Json.dll
+C:\Git\OEmbed.net\bin\Debug\Newtonsoft.Json.xml

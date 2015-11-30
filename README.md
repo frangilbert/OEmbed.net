@@ -3,7 +3,7 @@ Written in C#, this should make using oEmbed as simple as possible. Any feedback
 Look at oEmbed.com for details of the standard.
 
 ## Requirements
-You'll need .NET Framework 3.5 or later to use the precompiled binaries. To build the code, you'll need Visual Studio 2010.
+You'll need .NET Framework 4.0 or later to use the precompiled binaries. To build the code, you'll need Visual Studio 2012+.
 
 ## Instructions
 A simple way of using this library would be as follows. Download the library and add to your project. Where you want to use the library add: using OEmbed.Net;

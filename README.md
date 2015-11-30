@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/2vm5r6uf0vg41orr?svg=true)](https://ci.appveyor.com/project/frangilbert/oembed-net)
+
+
 # oEmbed for .net
 Written in C#, this should make using oEmbed as simple as possible. Any feedback welcome.
 Look at oEmbed.com for details of the standard.

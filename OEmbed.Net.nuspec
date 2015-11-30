@@ -2,18 +2,18 @@
 <package >
   <metadata>
     <id>OEmbed.Net</id>
-    <version>1.0</version>
+    <version>1.1</version>
     <title>OEmbed.net</title>
     <authors>Francis Gilbert</authors>
     <owners>Francis Gilbert</owners>
     <projectUrl>https://github.com/frangilbert/OEmbed.net</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple wrapper for the OEmbed API</description>
-    <releaseNotes>First version</releaseNotes>
-    <copyright>Copyright 2011</copyright>
+    <releaseNotes>New version of OEmbed library updating Json.net and using as a dependency</releaseNotes>
+    <copyright>Copyright 2015</copyright>
     <tags>oEmbed</tags>
 	<dependencies>
-      <dependency id="Newtonsoft.Json" version="4.0.2" />
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
     </dependencies>
 	<frameworkAssemblies>
 		<frameworkAssembly assemblyName="System.ServiceModel.Web" />
@@ -23,7 +23,7 @@
 	</frameworkAssemblies>	
   </metadata>
 	<files>
-		<file src="bin\Debug\*.dll" target="lib/net35-full" /> 
-		<file src="bin\Debug\*.pdb" target="lib/net35-full" /> 
+		<file src="bin\Debug\*.dll" target="lib/net40-full" /> 
+		<file src="bin\Debug\*.pdb" target="lib/net40-full" /> 
 	</files>
 </package>

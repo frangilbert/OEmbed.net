@@ -15,3 +15,4 @@ _ReSharper.*
 ~$*
 /_ReSharper.*
 packages
+*.sln.DotSettings.user

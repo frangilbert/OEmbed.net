@@ -24,7 +24,7 @@
 	</frameworkAssemblies>	
   </metadata>
 	<files>
-		<file src="bin\Debug\*.dll" target="lib/net40-full" /> 
-		<file src="bin\Debug\*.pdb" target="lib/net40-full" /> 
+		<file src="bin\Release\*.dll" target="lib/net40-full" /> 
+		<file src="bin\Release\*.pdb" target="lib/net40-full" /> 
 	</files>
 </package>

@@ -12,6 +12,7 @@
     <releaseNotes>New version of OEmbed library updating Json.net and using as a dependency</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>oEmbed</tags>
+	<licenseUrl>https://raw.githubusercontent.com/frangilbert/OEmbed.net/master/LICENSE.txt</licenseUrl>
 	<dependencies>
       <dependency id="Newtonsoft.Json" version="7.0.1" />
     </dependencies>
